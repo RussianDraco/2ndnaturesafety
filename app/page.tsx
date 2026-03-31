@@ -86,8 +86,8 @@ export default function ModernSafetyWebsite() {
                         <a href="#consulting" className="transition hover:text-white">Capabilities</a>
                         <a href="#contact" className="transition hover:text-white">Contact</a>
                     </nav>
-                    <Button className="rounded-md bg-cyan-400 text-slate-950 hover:bg-cyan-300">
-                        Contact Us
+                    <Button asChild className="rounded-md bg-cyan-400 text-slate-950 hover:bg-cyan-300">
+                        <a href="/training">Start Training</a>
                     </Button>
                 </div>
             </header>
